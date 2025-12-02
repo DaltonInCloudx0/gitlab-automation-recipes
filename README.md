@@ -3,9 +3,9 @@
 
 **A collection of small, modular automation tools for GitLab administrators and DevOps engineers.**
 
-Each “recipe” is a standalone script that solves a real operational problem: cleaning old pipelines, archiving inactive projects, tagging risky merge requests, and more.
+Each “recipe” is a small, focused automation for real GitLab admin problems: cleaning old pipelines, archiving inactive projects, tagging risky merge requests, and more.
 
-The goal is to make automation approachable. Tiny scripts, clear folders, and plenty of room for contributions.
+Over time, this will plug into a larger multi-provider toolkit (GitLab, AWS, Kubernetes, etc.), but GitLab is the first-class citizen and starting point.
 
 ## Why this exists
 
