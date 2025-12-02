@@ -47,8 +47,8 @@ Check for failed pipelines and send message alerts to Slack or Discord.
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/yourusername/gitlab-automation-recipes.git
-cd gitlab-automation-recipes
+git clone https://github.com/yourusername/gitlab-automation-.git
+cd gitlab-automation-
 ```
 
 ### 2. Install dependencies
@@ -88,7 +88,7 @@ python -m src.cli archive-inactive-projects
 Or run a specific file directly:
 
 ```
-python src/recipes/archive_inactive_projects.py
+python src/providers/gitlab/recipes/archive_inactive_projects.py
 
 ```
 
@@ -183,7 +183,7 @@ Contributions are welcome and encouraged.
 
 To add a new recipe:
 
-  1. Create a new file under ```src/recipes/```
+  1. Create a new file under ```src/providers/gitlab/recipes/```
 
   2. Add an example in ```/examples/```
 
