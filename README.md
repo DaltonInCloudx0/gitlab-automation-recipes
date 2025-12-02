@@ -81,7 +81,7 @@ GITLAB_TOKEN=your-access-token
 ### 4. Run a recipe
 
 ```
-python -m src.cli archive-inactive-projects
+python -m src.cli run cleanup-old-pipelines
 
 ```
 
